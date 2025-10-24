@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PikaStack Catalogue</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #fafafa;
+      color: #222;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.5;
+    }
+    img.logo {
+      display: block;
+      margin: 0 auto 1rem;
+      width: 80px;
+      height: auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    .item {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+    .tool {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .url a {
+      color: #0366d6;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .meta {
+      color: #555;
+      font-size: 0.85rem;
+      margin: 0.25rem 0;
+    }
+    .tags {
+      font-size: 0.85rem;
+      color: #666;
+    }
+    .note {
+      margin-top: 0.5rem;
+      font-style: italic;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <img src="pikastack.png" alt="PikaStack Logo" class="logo" />
+  <h1>PikaStack Catalogue</h1>
+  <div id="list"></div>
 
+  <script>
+    fetch('pikastack_catalogue.json')
+      .then(res => res.json())
+      .then(data => {
+        const list = document.getElementById('list');
+        data.forEach(item => {
+          const div = document.createElement('div');
+          div.className = 'item';
+          div.innerHTML = `
+            <div class="tool">${item.tool}</div>
+            <div class="url"><a href="${item.user_url}" target="_blank">${item.user_url}</a></div>
+            <div class="meta">Role: ${item.role}</div>
+            <div class="tags">Tags: ${item.ai_tags.join(', ')}</div>
+            <div class="meta">Cost: ${item.ai_cost}</div>
+            <div class="what">${item.user_what}</div>
+            ${item.note ? `<div class="note">${item.note}</div>` : ''}
+          `;
+          list.appendChild(div);
+        });
+      });
+  </script>
+</body>
+</html>
