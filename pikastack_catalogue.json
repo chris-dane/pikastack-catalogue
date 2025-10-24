@@ -1,0 +1,758 @@
+[
+  {
+    "role": "Frontend",
+    "tool": "Next.js",
+    "ai_tags": ["react", "ssr", "framework", "fullstack"],
+    "ai_cost": "free",
+    "user_what": "React framework for building modern web apps with built-in routing",
+    "user_url": "https://nextjs.org",
+    "note": "Most popular React framework, works perfectly with Vercel hosting"
+  },
+  {
+    "role": "Frontend",
+    "tool": "Astro",
+    "ai_tags": ["static", "framework", "content", "fast"],
+    "ai_cost": "free",
+    "user_what": "Framework for building fast content sites with minimal JavaScript",
+    "user_url": "https://astro.build",
+    "note": "Best for content sites like blogs, marketing pages, and documentation"
+  },
+  {
+    "role": "Frontend",
+    "tool": "Svelte",
+    "ai_tags": ["framework", "reactive", "compiler", "lightweight"],
+    "ai_cost": "free",
+    "user_what": "Modern framework that compiles to highly efficient JavaScript",
+    "user_url": "https://svelte.dev",
+    "note": "Easier to learn than React, great for smaller projects"
+  },
+  {
+    "role": "Frontend",
+    "tool": "React",
+    "ai_tags": ["library", "components", "ui", "spa"],
+    "ai_cost": "free",
+    "user_what": "JavaScript library for building user interfaces with reusable components",
+    "user_url": "https://react.dev",
+    "note": "Industry standard with the largest ecosystem and community"
+  },
+  {
+    "role": "Frontend",
+    "tool": "Tailwind CSS",
+    "ai_tags": ["css", "utility", "styling", "design"],
+    "ai_cost": "free",
+    "user_what": "CSS framework for building custom designs with utility classes",
+    "user_url": "https://tailwindcss.com",
+    "note": "Most popular CSS approach, AI coding tools work great with it"
+  },
+  {
+    "role": "Frontend",
+    "tool": "shadcn/ui",
+    "ai_tags": ["components", "react", "ui", "tailwind", "copy-paste"],
+    "ai_cost": "free",
+    "user_what": "Beautiful React components you copy into your project",
+    "user_url": "https://ui.shadcn.com",
+    "note": "Not a package—you copy the code directly into your project"
+  },
+  {
+    "role": "Backend",
+    "tool": "Supabase",
+    "ai_tags": ["postgres", "backend", "realtime", "storage", "auth"],
+    "ai_cost": "freemium",
+    "user_what": "Complete backend with database, authentication, and file storage",
+    "user_url": "https://supabase.com",
+    "note": "All-in-one solution: database, auth, storage, and real-time included"
+  },
+  {
+    "role": "Backend",
+    "tool": "Firebase",
+    "ai_tags": ["google", "backend", "realtime", "nosql", "auth"],
+    "ai_cost": "freemium",
+    "user_what": "Google's complete backend platform with database and authentication",
+    "user_url": "https://firebase.google.com",
+    "note": "Easiest complete backend, excellent for real-time features"
+  },
+  {
+    "role": "Backend",
+    "tool": "Convex",
+    "ai_tags": ["database", "backend", "realtime", "typescript", "serverless"],
+    "ai_cost": "freemium",
+    "user_what": "Backend platform with automatic real-time database updates",
+    "user_url": "https://convex.dev",
+    "note": "TypeScript-first with automatic real-time syncing across all clients"
+  },
+  {
+    "role": "Backend",
+    "tool": "Hono",
+    "ai_tags": ["edge", "api", "framework", "lightweight"],
+    "ai_cost": "free",
+    "user_what": "Lightweight framework for building APIs that run anywhere",
+    "user_url": "https://hono.dev",
+    "note": "Modern Express alternative, works great on edge platforms"
+  },
+  {
+    "role": "Backend",
+    "tool": "tRPC",
+    "ai_tags": ["typescript", "api", "type-safe", "fullstack"],
+    "ai_cost": "free",
+    "user_what": "Build APIs with automatic type safety between frontend and backend",
+    "user_url": "https://trpc.io",
+    "note": "TypeScript required, eliminates API typing errors completely"
+  },
+  {
+    "role": "Backend",
+    "tool": "Payload CMS",
+    "ai_tags": ["cms", "headless", "typescript", "admin"],
+    "ai_cost": "freemium",
+    "user_what": "Content management system with built-in admin interface",
+    "user_url": "https://payloadcms.com",
+    "note": "Choose this if you need content management with custom fields"
+  },
+  {
+    "role": "Backend",
+    "tool": "Express.js",
+    "ai_tags": ["server", "api", "nodejs", "framework"],
+    "ai_cost": "free",
+    "user_what": "Classic Node.js framework for building web servers and APIs",
+    "user_url": "https://expressjs.com",
+    "note": "Time-tested but requires more manual setup than modern alternatives"
+  },
+  {
+    "role": "Backend",
+    "tool": "Partykit",
+    "ai_tags": ["realtime", "multiplayer", "websockets", "collaboration"],
+    "ai_cost": "freemium",
+    "user_what": "Add real-time multiplayer features like cursors and live updates",
+    "user_url": "https://partykit.io",
+    "note": "Specialized for collaborative features like shared cursors and presence"
+  },
+  {
+    "role": "Database",
+    "tool": "Neon",
+    "ai_tags": ["postgres", "serverless", "branching", "sql"],
+    "ai_cost": "freemium",
+    "user_what": "Serverless Postgres database with instant setup and scaling",
+    "user_url": "https://neon.tech",
+    "note": "Modern Postgres with generous free tier and database branching"
+  },
+  {
+    "role": "Database",
+    "tool": "Turso",
+    "ai_tags": ["sqlite", "edge", "distributed", "fast"],
+    "ai_cost": "freemium",
+    "user_what": "SQLite database that runs at the edge for ultra-fast reads",
+    "user_url": "https://turso.tech",
+    "note": "Incredibly fast for read-heavy apps, data stored close to users"
+  },
+  {
+    "role": "Database",
+    "tool": "PlanetScale",
+    "ai_tags": ["mysql", "serverless", "branching", "sql"],
+    "ai_cost": "freemium",
+    "user_what": "Serverless MySQL database with branching workflows",
+    "user_url": "https://planetscale.com",
+    "note": "Choose this if you need MySQL instead of Postgres"
+  },
+  {
+    "role": "Database",
+    "tool": "MongoDB Atlas",
+    "ai_tags": ["nosql", "document", "cloud", "flexible"],
+    "ai_cost": "freemium",
+    "user_what": "Cloud database for flexible document-style data storage",
+    "user_url": "https://www.mongodb.com/atlas",
+    "note": "Best for unstructured data, different approach than SQL databases"
+  },
+  {
+    "role": "Database",
+    "tool": "Upstash",
+    "ai_tags": ["redis", "serverless", "edge", "cache"],
+    "ai_cost": "freemium",
+    "user_what": "Fast cache and session storage for serverless apps",
+    "user_url": "https://upstash.com",
+    "note": "Not your main database—use for caching, sessions, and rate limiting"
+  },
+  {
+    "role": "Database",
+    "tool": "Xata",
+    "ai_tags": ["postgres", "search", "serverless", "spreadsheet"],
+    "ai_cost": "freemium",
+    "user_what": "Postgres database with built-in full-text search",
+    "user_url": "https://xata.io",
+    "note": "Includes powerful search without needing a separate search service"
+  },
+  {
+    "role": "Database",
+    "tool": "Airtable",
+    "ai_tags": ["spreadsheet", "database", "nocode", "api"],
+    "ai_cost": "freemium",
+    "user_what": "Spreadsheet-style database with forms and API access",
+    "user_url": "https://airtable.com",
+    "note": "Perfect for MVPs when non-technical team members need database access"
+  },
+  {
+    "role": "Database",
+    "tool": "Fauna",
+    "ai_tags": ["serverless", "distributed", "graphql", "document"],
+    "ai_cost": "freemium",
+    "user_what": "Globally distributed database with GraphQL support",
+    "user_url": "https://fauna.com",
+    "note": "More complex than alternatives but offers global distribution"
+  },
+  {
+    "role": "Database",
+    "tool": "Cloudflare KV",
+    "ai_tags": ["key-value", "edge", "storage", "simple"],
+    "ai_cost": "freemium",
+    "user_what": "Simple key-value storage at the edge for fast lookups",
+    "user_url": "https://developers.cloudflare.com/kv",
+    "note": "Only works with Cloudflare Workers, for simple data storage"
+  },
+  {
+    "role": "Database",
+    "tool": "Prisma",
+    "ai_tags": ["orm", "typescript", "migrations", "sql"],
+    "ai_cost": "free",
+    "user_what": "Type-safe database toolkit for working with SQL databases",
+    "user_url": "https://www.prisma.io",
+    "note": "Requires a separate database like Neon to store your data"
+  },
+  {
+    "role": "Database",
+    "tool": "Drizzle ORM",
+    "ai_tags": ["orm", "typescript", "lightweight", "sql"],
+    "ai_cost": "free",
+    "user_what": "Lightweight database toolkit with SQL-like TypeScript syntax",
+    "user_url": "https://orm.drizzle.team",
+    "note": "Requires a separate database, lighter alternative to Prisma"
+  },
+  {
+    "role": "Auth",
+    "tool": "Clerk",
+    "ai_tags": ["authentication", "user-management", "ui", "oauth"],
+    "ai_cost": "freemium",
+    "user_what": "User authentication with pre-built login and signup components",
+    "user_url": "https://clerk.com",
+    "note": "Easiest setup for beginners, includes beautiful pre-built UI"
+  },
+  {
+    "role": "Auth",
+    "tool": "Auth.js",
+    "ai_tags": ["authentication", "oauth", "next", "sessions"],
+    "ai_cost": "free",
+    "user_what": "Authentication library supporting OAuth and passwordless login",
+    "user_url": "https://authjs.dev",
+    "note": "Free but requires more setup, integrates perfectly with Next.js"
+  },
+  {
+    "role": "Auth",
+    "tool": "Lucia",
+    "ai_tags": ["authentication", "lightweight", "sessions", "flexible"],
+    "ai_cost": "free",
+    "user_what": "Minimal authentication library with session management",
+    "user_url": "https://lucia-auth.com",
+    "note": "Most manual setup, gives you complete control over authentication"
+  },
+  {
+    "role": "Auth",
+    "tool": "Auth0",
+    "ai_tags": ["authentication", "enterprise", "oauth", "identity"],
+    "ai_cost": "freemium",
+    "user_what": "Enterprise authentication platform with advanced features",
+    "user_url": "https://auth0.com",
+    "note": "Enterprise-focused with more features but steeper learning curve"
+  },
+  {
+    "role": "Auth",
+    "tool": "Kinde",
+    "ai_tags": ["authentication", "user-management", "modern", "oauth"],
+    "ai_cost": "freemium",
+    "user_what": "Modern authentication with built-in UI and user management",
+    "user_url": "https://kinde.com",
+    "note": "Modern Clerk alternative with competitive pricing"
+  },
+  {
+    "role": "Payments",
+    "tool": "Stripe",
+    "ai_tags": ["payments", "subscriptions", "checkout", "global"],
+    "ai_cost": "freemium",
+    "user_what": "Payment processing for one-time and subscription payments",
+    "user_url": "https://stripe.com",
+    "note": "Industry standard, requires business verification for real payments"
+  },
+  {
+    "role": "Payments",
+    "tool": "Lemon Squeezy",
+    "ai_tags": ["payments", "merchant-of-record", "simple", "taxes"],
+    "ai_cost": "freemium",
+    "user_what": "Payment platform that handles all tax and compliance for you",
+    "user_url": "https://lemonsqueezy.com",
+    "note": "They handle all tax compliance, perfect for solo founders"
+  },
+  {
+    "role": "Payments",
+    "tool": "Paddle",
+    "ai_tags": ["payments", "merchant-of-record", "saas", "billing"],
+    "ai_cost": "freemium",
+    "user_what": "Payment and billing platform with global tax compliance",
+    "user_url": "https://www.paddle.com",
+    "note": "Similar to Lemon Squeezy, focused on SaaS businesses"
+  },
+  {
+    "role": "AI",
+    "tool": "OpenAI",
+    "ai_tags": ["llm", "gpt", "api", "text"],
+    "ai_cost": "paid",
+    "user_what": "Access GPT language models for text generation and chat",
+    "user_url": "https://openai.com",
+    "note": "Most popular AI API, GPT-4 is powerful but costly"
+  },
+  {
+    "role": "AI",
+    "tool": "Anthropic",
+    "ai_tags": ["llm", "claude", "api", "analysis"],
+    "ai_cost": "paid",
+    "user_what": "Claude AI models for text analysis and long document processing",
+    "user_url": "https://anthropic.com",
+    "note": "Best for detailed analysis and working with long documents"
+  },
+  {
+    "role": "AI",
+    "tool": "Replicate",
+    "ai_tags": ["ml-models", "api", "image", "video"],
+    "ai_cost": "freemium",
+    "user_what": "Run AI models for image generation, video, and audio processing",
+    "user_url": "https://replicate.com",
+    "note": "Easiest way to use image generation and open source models"
+  },
+  {
+    "role": "AI",
+    "tool": "Hugging Face",
+    "ai_tags": ["ml-models", "community", "inference", "open-source"],
+    "ai_cost": "freemium",
+    "user_what": "Platform for running thousands of open source AI models",
+    "user_url": "https://huggingface.co",
+    "note": "Huge model library but steeper learning curve than alternatives"
+  },
+  {
+    "role": "DevTools",
+    "tool": "Vercel AI SDK",
+    "ai_tags": ["streaming", "react", "ui", "hooks"],
+    "ai_cost": "free",
+    "user_what": "Development toolkit for building AI chat interfaces in React",
+    "user_url": "https://sdk.vercel.ai",
+    "note": "Makes streaming AI responses in React incredibly simple"
+  },
+  {
+    "role": "AI",
+    "tool": "Pinecone",
+    "ai_tags": ["vector-database", "embeddings", "search", "rag"],
+    "ai_cost": "freemium",
+    "user_what": "Vector database for semantic search and AI memory",
+    "user_url": "https://www.pinecone.io",
+    "note": "Specialized database for AI semantic search and chatbot memory"
+  },
+  {
+    "role": "AI",
+    "tool": "OpenRouter",
+    "ai_tags": ["api", "multi-model", "proxy", "aggregator"],
+    "ai_cost": "paid",
+    "user_what": "Single API to access multiple AI models from different providers",
+    "user_url": "https://openrouter.ai",
+    "note": "One API for many AI models, easy to switch between providers"
+  },
+  {
+    "role": "AI",
+    "tool": "Together AI",
+    "ai_tags": ["inference", "open-models", "api", "llama"],
+    "ai_cost": "freemium",
+    "user_what": "Fast and affordable access to open source AI models",
+    "user_url": "https://www.together.ai",
+    "note": "Cheapest way to run open source models like Llama"
+  },
+  {
+    "role": "AI",
+    "tool": "ElevenLabs",
+    "ai_tags": ["voice", "tts", "audio", "speech"],
+    "ai_cost": "freemium",
+    "user_what": "Convert text to natural-sounding speech in multiple voices",
+    "user_url": "https://elevenlabs.io",
+    "note": "Best voice quality available, great for audiobooks and podcasts"
+  },
+  {
+    "role": "AI",
+    "tool": "Groq",
+    "ai_tags": ["inference", "fast", "llm", "speed"],
+    "ai_cost": "freemium",
+    "user_what": "Ultra-fast AI inference for open source language models",
+    "user_url": "https://groq.com",
+    "note": "Fastest inference speeds available, generous free tier"
+  },
+  {
+    "role": "Automation",
+    "tool": "Zapier",
+    "ai_tags": ["workflow", "integration", "nocode", "automation"],
+    "ai_cost": "freemium",
+    "user_what": "Connect apps and automate workflows without writing code",
+    "user_url": "https://zapier.com",
+    "note": "Most app integrations available, easiest for non-developers"
+  },
+  {
+    "role": "Automation",
+    "tool": "Make",
+    "ai_tags": ["workflow", "visual", "integration", "automation"],
+    "ai_cost": "freemium",
+    "user_what": "Visual workflow builder for automating tasks between apps",
+    "user_url": "https://www.make.com",
+    "note": "More powerful than Zapier with visual workflow builder"
+  },
+  {
+    "role": "Automation",
+    "tool": "n8n",
+    "ai_tags": ["workflow", "open-source", "selfhost", "automation"],
+    "ai_cost": "freemium",
+    "user_what": "Open source automation with visual workflows and custom code",
+    "user_url": "https://n8n.io",
+    "note": "Self-hostable, good for custom integrations not in Zapier"
+  },
+  {
+    "role": "Automation",
+    "tool": "Pipedream",
+    "ai_tags": ["serverless", "workflow", "code", "developer"],
+    "ai_cost": "freemium",
+    "user_what": "Build workflows with code instead of visual builders",
+    "user_url": "https://pipedream.com",
+    "note": "Developer-focused, write JavaScript workflows instead of clicking"
+  },
+  {
+    "role": "Automation",
+    "tool": "Inngest",
+    "ai_tags": ["background-jobs", "durable", "typescript", "queues"],
+    "ai_cost": "freemium",
+    "user_what": "Run background jobs with automatic retries and scheduling",
+    "user_url": "https://www.inngest.com",
+    "note": "Handles retries and scheduling automatically, built for developers"
+  },
+  {
+    "role": "Automation",
+    "tool": "Trigger.dev",
+    "ai_tags": ["background-jobs", "typescript", "developer", "monitoring"],
+    "ai_cost": "freemium",
+    "user_what": "TypeScript background jobs with built-in monitoring",
+    "user_url": "https://trigger.dev",
+    "note": "Great debugging tools, see exactly what your background jobs are doing"
+  },
+  {
+    "role": "Automation",
+    "tool": "Windmill",
+    "ai_tags": ["workflow", "open-source", "scripts", "selfhost"],
+    "ai_cost": "freemium",
+    "user_what": "Turn scripts into workflows with visual editor",
+    "user_url": "https://windmill.dev",
+    "note": "Self-hostable, turn existing scripts into managed workflows"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Vercel",
+    "ai_tags": ["hosting", "frontend", "serverless", "nextjs"],
+    "ai_cost": "freemium",
+    "user_what": "Deploy web apps with zero configuration and automatic scaling",
+    "user_url": "https://vercel.com",
+    "note": "Zero-config deployment, built for Next.js but works with any framework"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Netlify",
+    "ai_tags": ["hosting", "jamstack", "forms", "static"],
+    "ai_cost": "freemium",
+    "user_what": "Deploy static sites with built-in forms and authentication",
+    "user_url": "https://netlify.com",
+    "note": "Great for static sites, includes form handling and simple auth"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Cloudflare Pages",
+    "ai_tags": ["hosting", "edge", "cdn", "static"],
+    "ai_cost": "freemium",
+    "user_what": "Deploy static sites on Cloudflare's global edge network",
+    "user_url": "https://pages.cloudflare.com",
+    "note": "Generous free tier, pairs with Cloudflare Workers for backend"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Railway",
+    "ai_tags": ["hosting", "full-stack", "databases", "docker"],
+    "ai_cost": "freemium",
+    "user_what": "Deploy full-stack apps with databases in minutes",
+    "user_url": "https://railway.app",
+    "note": "Easiest way to deploy apps with databases included"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Render",
+    "ai_tags": ["hosting", "full-stack", "managed", "databases"],
+    "ai_cost": "freemium",
+    "user_what": "Deploy web apps and databases with automatic deployments",
+    "user_url": "https://render.com",
+    "note": "Similar to Railway, good alternative to Heroku"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Fly.io",
+    "ai_tags": ["hosting", "edge", "global", "docker"],
+    "ai_cost": "freemium",
+    "user_what": "Deploy apps globally close to your users",
+    "user_url": "https://fly.io",
+    "note": "Deploy apps at the edge worldwide, more technical than alternatives"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Deno Deploy",
+    "ai_tags": ["edge", "serverless", "typescript", "javascript"],
+    "ai_cost": "freemium",
+    "user_what": "Deploy JavaScript and TypeScript to edge servers instantly",
+    "user_url": "https://deno.com/deploy",
+    "note": "Modern JavaScript runtime at the edge, excellent free tier"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Cloudflare Workers",
+    "ai_tags": ["edge", "serverless", "fast", "api"],
+    "ai_cost": "freemium",
+    "user_what": "Run serverless functions at the edge for ultra-low latency",
+    "user_url": "https://workers.cloudflare.com",
+    "note": "Ultra-fast serverless functions, best for simple API endpoints"
+  },
+  {
+    "role": "Hosting",
+    "tool": "Coolify",
+    "ai_tags": ["self-host", "open-source", "deployment", "docker"],
+    "ai_cost": "free",
+    "user_what": "Self-host your own deployment platform on your server",
+    "user_url": "https://coolify.io",
+    "note": "Run your own Vercel alternative, requires server management"
+  },
+  {
+    "role": "Analytics",
+    "tool": "Plausible",
+    "ai_tags": ["privacy", "simple", "lightweight", "gdpr"],
+    "ai_cost": "paid",
+    "user_what": "Privacy-friendly analytics with simple, easy-to-read dashboard",
+    "user_url": "https://plausible.io",
+    "note": "Privacy-first, no cookies needed, very easy to understand"
+  },
+  {
+    "role": "Analytics",
+    "tool": "PostHog",
+    "ai_tags": ["product-analytics", "open-source", "events", "features"],
+    "ai_cost": "freemium",
+    "user_what": "Product analytics with event tracking and feature flags",
+    "user_url": "https://posthog.com",
+    "note": "All-in-one product analytics with generous free tier"
+  },
+  {
+    "role": "Analytics",
+    "tool": "Mixpanel",
+    "ai_tags": ["product-analytics", "events", "funnel", "cohorts"],
+    "ai_cost": "freemium",
+    "user_what": "Track user actions and analyze behavior funnels",
+    "user_url": "https://mixpanel.com",
+    "note": "Powerful event tracking, more complex than simpler alternatives"
+  },
+  {
+    "role": "Analytics",
+    "tool": "Google Analytics",
+    "ai_tags": ["web-analytics", "free", "standard", "google"],
+    "ai_cost": "free",
+    "user_what": "Free website analytics from Google for tracking visitors",
+    "user_url": "https://analytics.google.com",
+    "note": "Free but complex interface, privacy concerns in some regions"
+  },
+  {
+    "role": "Analytics",
+    "tool": "Umami",
+    "ai_tags": ["privacy", "open-source", "simple", "selfhost"],
+    "ai_cost": "freemium",
+    "user_what": "Open source privacy-focused analytics you can self-host",
+    "user_url": "https://umami.is",
+    "note": "Self-hostable for free, simpler than Google Analytics"
+  },
+  {
+    "role": "Analytics",
+    "tool": "Vercel Analytics",
+    "ai_tags": ["web-vitals", "performance", "privacy", "speed"],
+    "ai_cost": "freemium",
+    "user_what": "Privacy-friendly analytics focused on site performance",
+    "user_url": "https://vercel.com/analytics",
+    "note": "Dead simple if you're already deploying on Vercel"
+  },
+  {
+    "role": "Analytics",
+    "tool": "Fathom Analytics",
+    "ai_tags": ["privacy", "simple", "gdpr", "paid"],
+    "ai_cost": "paid",
+    "user_what": "Simple privacy-focused analytics with GDPR compliance",
+    "user_url": "https://usefathom.com",
+    "note": "Premium Plausible alternative with better customer support"
+  },
+  {
+    "role": "Analytics",
+    "tool": "Cloudflare Web Analytics",
+    "ai_tags": ["privacy", "free", "lightweight", "notracking"],
+    "ai_cost": "free",
+    "user_what": "Free privacy-focused analytics from Cloudflare",
+    "user_url": "https://www.cloudflare.com/web-analytics",
+    "note": "Completely free, works even without Cloudflare hosting"
+  },
+  {
+    "role": "DevTools",
+    "tool": "GitHub",
+    "ai_tags": ["git", "version-control", "hosting", "collaboration"],
+    "ai_cost": "freemium",
+    "user_what": "Store and collaborate on code with version control",
+    "user_url": "https://github.com",
+    "note": "Industry standard for code storage and team collaboration"
+  },
+  {
+    "role": "DevTools",
+    "tool": "Replit",
+    "ai_tags": ["ide", "collaborative", "hosting", "browser"],
+    "ai_cost": "freemium",
+    "user_what": "Code in your browser with AI assistance and instant deployment",
+    "user_url": "https://replit.com",
+    "note": "Code and deploy from browser, good for quick prototypes"
+  },
+  {
+    "role": "DevTools",
+    "tool": "v0",
+    "ai_tags": ["ai", "ui-generation", "react", "shadcn"],
+    "ai_cost": "freemium",
+    "user_what": "Generate React UI components from text descriptions",
+    "user_url": "https://v0.dev",
+    "note": "Vercel's AI that generates shadcn/ui components from descriptions"
+  },
+  {
+    "role": "DevTools",
+    "tool": "bolt.new",
+    "ai_tags": ["ai", "full-stack", "generation", "stackblitz"],
+    "ai_cost": "freemium",
+    "user_what": "AI that builds complete applications from descriptions",
+    "user_url": "https://bolt.new",
+    "note": "StackBlitz AI that builds entire working apps, great for MVPs"
+  },
+  {
+    "role": "DevTools",
+    "tool": "Sentry",
+    "ai_tags": ["error-tracking", "monitoring", "debugging", "production"],
+    "ai_cost": "freemium",
+    "user_what": "Track and fix errors in your production apps",
+    "user_url": "https://sentry.io",
+    "note": "Essential for production, shows exactly where errors happen"
+  },
+  {
+    "role": "DevTools",
+    "tool": "LogRocket",
+    "ai_tags": ["session-replay", "monitoring", "debugging", "video"],
+    "ai_cost": "freemium",
+    "user_what": "Record user sessions to see exactly what went wrong",
+    "user_url": "https://logrocket.com",
+    "note": "Watch video of exactly what users did before errors occurred"
+  },
+  {
+    "role": "DevTools",
+    "tool": "Highlight",
+    "ai_tags": ["session-replay", "monitoring", "open-source", "errors"],
+    "ai_cost": "freemium",
+    "user_what": "Open source session replay and error monitoring",
+    "user_url": "https://highlight.io",
+    "note": "Open source LogRocket alternative with generous free tier"
+  },
+  {
+    "role": "Media",
+    "tool": "Cloudinary",
+    "ai_tags": ["images", "video", "cdn", "optimization"],
+    "ai_cost": "freemium",
+    "user_what": "Store and optimize images and videos with automatic delivery",
+    "user_url": "https://cloudinary.com",
+    "note": "Complete media solution with automatic optimization and transformations"
+  },
+  {
+    "role": "Media",
+    "tool": "Uploadthing",
+    "ai_tags": ["file-upload", "simple", "typescript", "nextjs"],
+    "ai_cost": "freemium",
+    "user_what": "Simple file upload solution for Next.js applications",
+    "user_url": "https://uploadthing.com",
+    "note": "Dead simple file uploads for Next.js with full type safety"
+  },
+  {
+    "role": "Media",
+    "tool": "Vercel Blob",
+    "ai_tags": ["storage", "cdn", "simple", "files"],
+    "ai_cost": "freemium",
+    "user_what": "Fast file storage integrated with Vercel hosting",
+    "user_url": "https://vercel.com/storage/blob",
+    "note": "Simple object storage if you're already deploying on Vercel"
+  },
+  {
+    "role": "Media",
+    "tool": "ImageKit",
+    "ai_tags": ["images", "optimization", "cdn", "transforms"],
+    "ai_cost": "freemium",
+    "user_what": "Image optimization and delivery with real-time transformations",
+    "user_url": "https://imagekit.io",
+    "note": "Image-focused with automatic optimization and on-the-fly transformations"
+  },
+  {
+    "role": "Media",
+    "tool": "Mux",
+    "ai_tags": ["video", "streaming", "api", "player"],
+    "ai_cost": "freemium",
+    "user_what": "Professional video hosting with built-in player and analytics",
+    "user_url": "https://mux.com",
+    "note": "Complete video solution with player, analytics, and delivery"
+  },
+  {
+    "role": "Media",
+    "tool": "Resend",
+    "ai_tags": ["email", "transactional", "api", "developer"],
+    "ai_cost": "freemium",
+    "user_what": "Send transactional emails through a developer-friendly API",
+    "user_url": "https://resend.com",
+    "note": "Modern SendGrid alternative built specifically for developers"
+  },
+  {
+    "role": "Media",
+    "tool": "SendGrid",
+    "ai_tags": ["email", "transactional", "marketing", "twilio"],
+    "ai_cost": "freemium",
+    "user_what": "Email delivery for both transactional and marketing emails",
+    "user_url": "https://sendgrid.com",
+    "note": "Established provider handling both transactional and marketing"
+  },
+  {
+    "role": "Media",
+    "tool": "Postmark",
+    "ai_tags": ["email", "transactional", "reliable", "deliverability"],
+    "ai_cost": "freemium",
+    "user_what": "Fast and reliable transactional email delivery",
+    "user_url": "https://postmarkapp.com",
+    "note": "Transactional-only focus, best deliverability rates available"
+  },
+  {
+    "role": "Media",
+    "tool": "Stream",
+    "ai_tags": ["chat", "activity-feeds", "api", "social"],
+    "ai_cost": "freemium",
+    "user_what": "Add chat and activity feeds to your application",
+    "user_url": "https://getstream.io",
+    "note": "Specialized for social features like chat, feeds, and notifications"
+  },
+  {
+    "role": "Media",
+    "tool": "Liveblocks",
+    "ai_tags": ["realtime", "collaboration", "multiplayer", "presence"],
+    "ai_cost": "freemium",
+    "user_what": "Add collaborative features like shared cursors and presence",
+    "user_url": "https://liveblocks.io",
+    "note": "Build collaborative experiences like Figma or Notion"
+  }
+]
