@@ -44,17 +44,8 @@
     }
     .meta {
       color: #555;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       margin: 0.25rem 0;
-    }
-    .tags {
-      font-size: 0.85rem;
-      color: #666;
-    }
-    .note {
-      margin-top: 0.5rem;
-      font-style: italic;
-      color: #444;
     }
   </style>
 </head>
@@ -75,10 +66,10 @@
             <div class="tool">${item.tool}</div>
             <div class="url"><a href="${item.user_url}" target="_blank">${item.user_url}</a></div>
             <div class="meta">Role: ${item.role}</div>
-            <div class="tags">Tags: ${item.ai_tags.join(', ')}</div>
+            <div class="meta">What: ${item.user_what}</div>
+            ${item.note ? `<div class="meta">Note: ${item.note}</div>` : ''}
+            <div class="meta">Tags: ${item.ai_tags.join(', ')}</div>
             <div class="meta">Cost: ${item.ai_cost}</div>
-            <div class="what">${item.user_what}</div>
-            ${item.note ? `<div class="note">${item.note}</div>` : ''}
           `;
           list.appendChild(div);
         });
