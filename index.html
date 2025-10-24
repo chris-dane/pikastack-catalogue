@@ -45,7 +45,11 @@
     .meta {
       color: #555;
       font-size: 0.9rem;
-      margin: 0.25rem 0;
+      margin: 0.6rem 0;
+    }
+    .meta b {
+      font-weight: 600;
+      color: #333;
     }
   </style>
 </head>
@@ -65,11 +69,11 @@
           div.innerHTML = `
             <div class="tool">${item.tool}</div>
             <div class="url"><a href="${item.user_url}" target="_blank">${item.user_url}</a></div>
-            <div class="meta">Role: ${item.role}</div>
-            <div class="meta">What: ${item.user_what}</div>
-            ${item.note ? `<div class="meta">Note: ${item.note}</div>` : ''}
-            <div class="meta">Tags: ${item.ai_tags.join(', ')}</div>
-            <div class="meta">Cost: ${item.ai_cost}</div>
+            <div class="meta"><b>Role:</b> ${item.role}</div>
+            <div class="meta"><b>What:</b> ${item.user_what}</div>
+            ${item.note ? `<div class="meta"><b>Note:</b> ${item.note}</div>` : ''}
+            <div class="meta"><b>Tags:</b> ${item.ai_tags.join(', ')}</div>
+            <div class="meta"><b>Cost:</b> ${item.ai_cost}</div>
           `;
           list.appendChild(div);
         });
