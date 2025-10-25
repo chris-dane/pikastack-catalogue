@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PikaPicks</title>
+  <link rel="icon" type="image/png" href="pikastack.png" />
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -23,15 +24,24 @@
     h1 {
       text-align: center;
       font-size: 1.8rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.2rem;
+    }
+    p.explainer {
+      text-align: center;
+      font-size: 1rem;
+      color: #333;
+      margin: 1.2rem auto 2rem;
+      max-width: 650px;
     }
     .item {
       background: #fff;
       border: 1px solid #eee;
       border-radius: 8px;
       padding: 1rem 1.5rem;
-      margin-bottom: 1rem;
+      margin: 0 auto 1rem;
       box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+      max-width: 650px;
+      width: 100%;
     }
     .tool {
       font-weight: 600;
@@ -51,11 +61,19 @@
       font-weight: 600;
       color: #333;
     }
+    @media (max-width: 700px) {
+      .item, p.explainer {
+        max-width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
   <img src="pikastack.png" alt="PikaStack Logo" class="logo" />
   <h1>PikaPicks</h1>
+  <p class="explainer">
+    The PikaStack AI engine biases towards “PikaPicks” because we believe these are proven tools that play nice with AI builds. When relevant, we also strongly consider recommendations from the highly capable Claude Haiku 4.5 AI model.
+  </p>
   <div id="list"></div>
 
   <script>
