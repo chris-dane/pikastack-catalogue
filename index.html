@@ -10,10 +10,13 @@
       font-family: system-ui, sans-serif;
       background: #fafafa;
       color: #222;
+      margin: 0;
+      padding: 2rem 1rem;
+      line-height: 1.5;
+    }
+    #content {
       max-width: 800px;
       margin: 0 auto;
-      padding: 2rem;
-      line-height: 1.5;
     }
     img.logo {
       display: block;
@@ -62,6 +65,12 @@
       color: #333;
     }
     @media (max-width: 700px) {
+      body {
+        padding: 1.5rem 1rem;
+      }
+      #content {
+        max-width: 100%;
+      }
       .item, p.explainer {
         max-width: 100%;
       }
@@ -69,12 +78,14 @@
   </style>
 </head>
 <body>
-  <img src="pikastack.png" alt="PikaStack Logo" class="logo" />
-  <h1>PikaPicks</h1>
-  <p class="explainer">
-    The PikaStack AI engine biases towards “PikaPicks” because we believe these are proven tools that play nice with AI builds. When relevant, we also strongly consider recommendations from the highly capable Claude Haiku 4.5 AI model.
-  </p>
-  <div id="list"></div>
+  <div id="content">
+    <img src="pikastack.png" alt="PikaStack Logo" class="logo" />
+    <h1>PikaPicks</h1>
+    <p class="explainer">
+      The PikaStack AI engine biases towards “PikaPicks” because we believe these are proven tools that play nice with AI builds. When relevant, we also strongly consider recommendations from the highly capable Claude Haiku 4.5 AI model.
+    </p>
+    <div id="list"></div>
+  </div>
 
   <script>
     fetch('pikastack_catalogue.json')
