@@ -37,13 +37,18 @@
       font-size: 1.8rem;
       margin-bottom: 1.2rem;
     }
+
+    /* updated explainer */
     p.explainer {
       text-align: center;
-      font-size: 1rem;
-      color: #333;
+      font-size: 0.9rem;     /* match .meta text scale */
+      color: #555;           /* match .meta colour */
+      font-weight: 400;      /* non-bold */
       margin: 1.2rem auto 2rem;
       max-width: 650px;
+      width: 100%;
     }
+
     #search-wrapper {
       position: relative;
       display: flex;
@@ -59,6 +64,7 @@
       border-radius: 6px;
       font-size: 1rem;
       box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+      background-color: #fff;
     }
     #clear-search {
       position: absolute;
@@ -74,6 +80,7 @@
     #clear-search:hover {
       color: #333;
     }
+
     .item {
       background: #fff;
       border: 1px solid #eee;
@@ -102,11 +109,13 @@
       font-weight: 600;
       color: #333;
     }
+
     @media (max-width: 700px) {
       body {
         padding: 1.5rem 1rem;
       }
-      p.explainer, .item {
+      p.explainer,
+      .item {
         max-width: 100%;
       }
       #clear-search {
@@ -119,6 +128,7 @@
   <div id="content">
     <img src="pikastack.png" alt="PikaStack Logo" class="logo" />
     <h1>PikaPicks</h1>
+
     <p class="explainer">
       The PikaStack AI engine biases towards “PikaPicks” because we believe these are proven tools that play nice with AI builds. When relevant, we also strongly consider recommendations from the highly capable Claude Haiku 4.5 AI model.
     </p>
@@ -157,8 +167,10 @@
           });
         }
 
+        // initial render
         renderItems(data);
 
+        // filter on input
         searchInput.addEventListener('input', () => {
           const query = searchInput.value.toLowerCase();
           const filtered = data.filter(item =>
@@ -171,6 +183,7 @@
           renderItems(filtered);
         });
 
+        // clear button
         clearBtn.addEventListener('click', () => {
           searchInput.value = '';
           renderItems(data);
